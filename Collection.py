@@ -2,7 +2,7 @@ from collections import OrderedDict
 
 class Collection(OrderedDict):
 
-    def __init__(self, dict = {}):
+    def __init__(self, dict = []):
         super().__init__(dict)
 
     def set(self, key, value):
